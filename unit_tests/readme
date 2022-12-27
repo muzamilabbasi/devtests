@@ -1,0 +1,22 @@
+Introduction: 
+
+Unit tests for joke_machine.py. 
+
+Getting Started:
+
+1. pip install -r requirements.txt
+2. inside the unit_tests folder type 'pytest' to run all unit tests.
+
+Currently following modules have unit tests, which are mocked and non-mocked.
+
+    get_joke_api()
+    get_joke_type()
+    get_joke()
+    joke_machine_runner()
+
+Following are the unit tests:
+
+    test_get_joke.py - these unit tests tests the get_joke() method
+    test_joke_api.py - these unit tests tests the get_joke_api() method
+    test_joke_type.py - these unit tests tests the get_joke_type() method
+    test_joke_runner.py - these unit tests tests the joke_machine_runner() method

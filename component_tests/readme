@@ -1,0 +1,14 @@
+Introduction: 
+
+Components tests for joke_machine.py, the majority of tests are unit test, since it covers major paths these are the remaining pieces from the joke_machine.py
+
+Getting Started:
+
+1. pip install -r requirements.txt
+2. inside the component_tests folder type 'pytest' to run all unit tests.
+
+Following are the component tests:
+
+    test_jm_cli_parser.py - these tests focus on argument_parser tests
+    test_jm_error_handler.py - these tests forcus on error_handler tests
+    test_joke_machine_class.py - these tests focus to test the class
